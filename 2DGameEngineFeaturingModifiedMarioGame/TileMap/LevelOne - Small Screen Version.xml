@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<level>
+  <!--All entities have coordinates and velocity. If there is no velocity tag, velocity will default to zero. See mario for example-->
+  <!--Multiple of the same entity can be added-->
+  
+  <!--100x100 is minimum to avoid breaking-->
+  <levelwidth>800</levelwidth>
+  <levelheight>480</levelheight>
+  <player>
+    <state>standard</state>
+    <coordinates>
+      <x>300</x>
+      <y>300</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </player>
+
+  <coin>
+    <coordinates>
+      <x>180</x>
+      <y>100</y>
+    </coordinates>
+    <!--visibility has values visible, brick, and question. not yet implemented since we don't have to worry about block responses this sprint.-->
+    <visibility>visible</visibility>
+  </coin>
+
+  <fireflower>
+    <coordinates>
+      <x>110</x>
+      <y>100</y>
+    </coordinates>
+  </fireflower>
+
+  <greenmushroom>
+    <coordinates>
+      <x>320</x>
+      <y>100</y>
+    </coordinates>
+  </greenmushroom>
+
+  <redmushroom>
+    <coordinates>
+      <x>250</x>
+      <y>100</y>
+    </coordinates>
+  </redmushroom>
+
+  <superstar>
+    <coordinates>
+      <x>390</x>
+      <y>100</y>
+    </coordinates>
+  </superstar>
+
+  <brickblock>
+    >
+    <coordinates>
+      <x>370</x>
+      <y>230</y>
+    </coordinates>
+  </brickblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>160</x>
+      <y>230</y>
+    </coordinates>
+  </diamondblock>
+
+  <groundblock>
+    <coordinates>
+      <x>440</x>
+      <y>230</y>
+    </coordinates>
+  </groundblock>
+
+  <hiddenblock>
+    <coordinates>
+      <x>370</x>
+      <y>160</y>
+    </coordinates>
+  </hiddenblock>
+
+  <pipe>
+    <coordinates>
+      <x>510</x>
+      <y>230</y>
+    </coordinates>
+  </pipe>
+
+  <questionblock>
+    <coordinates>
+      <x>300</x>
+      <y>230</y>
+    </coordinates>
+  </questionblock>
+
+  <usedblock>
+    <coordinates>
+      <x>230</x>
+      <y>230</y>
+    </coordinates>
+  </usedblock>
+
+  <goomba>
+    <coordinates>
+      <x>460</x>
+      <y>150</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+  <turtle>
+    <coordinates>
+      <x>530</x>
+      <y>150</y>
+    </coordinates>
+  </turtle>
+
+</level>

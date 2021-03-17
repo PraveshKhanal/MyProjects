@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<level>
+  <!--All entities have coordinates and velocity. If there is no velocity tag, velocity will default to zero. See mario for example-->
+  <!--Multiple of the same entity can be added-->
+  
+  <!--100x100 is minimum to avoid breaking-->
+  <!--Best resolution is -->
+  <levelwidth>1920</levelwidth>
+  <levelheight>1080</levelheight>
+  <player>
+    <state>standard</state>
+    <coordinates>
+      <x>300</x>
+      <y>300</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </player>
+
+  <coin>
+    <coordinates>
+      <x>180</x>
+      <y>100</y>
+    </coordinates>
+  </coin>
+
+  <fireflower>
+    <coordinates>
+      <x>110</x>
+      <y>100</y>
+    </coordinates>
+  </fireflower>
+
+  <greenmushroom>
+    <coordinates>
+      <x>320</x>
+      <y>100</y>
+    </coordinates>
+  </greenmushroom>
+
+  <redmushroom>
+    <coordinates>
+      <x>250</x>
+      <y>100</y>
+    </coordinates>
+  </redmushroom>
+
+  <superstar>
+    <coordinates>
+      <x>390</x>
+      <y>100</y>
+    </coordinates>
+  </superstar>
+
+  <brickblock>
+    <coordinates>
+      <x>370</x>
+      <y>230</y>
+    </coordinates>
+  </brickblock>
+  
+  <brickblock>
+    <coordinates>
+      <x>574</x>
+      <y>230</y>
+    </coordinates>
+  </brickblock>
+  
+  <brickblock>
+    <coordinates>
+      <x>600</x>
+      <y>230</y>
+    </coordinates>
+  </brickblock>
+  
+  <brickblock>
+    <coordinates>
+      <x>626</x>
+      <y>230</y>
+    </coordinates>
+  </brickblock>
+
+  <brickblock>
+    <coordinates>
+      <x>270</x>
+      <y>350</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>5</numOfItems>
+  </brickblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>160</x>
+      <y>230</y>
+    </coordinates>
+  </diamondblock>
+
+  <!--All ground blocks here with 26 pixel gap-->
+  <groundblock>
+    <coordinates>
+      <x>440</x>
+      <y>230</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>688</x>
+      <y>504</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>52</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>78</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>104</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>130</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>156</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>182</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>208</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>234</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>260</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>286</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>312</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>338</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>364</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>390</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>416</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>442</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>468</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>494</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>520</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+  <!--1st Gap here-->
+  
+  <!--Bottom Blocks after the gap-->
+  <groundblock>
+    <coordinates>
+      <x>688</x>
+      <y>582</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>688</x>
+      <y>608</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>662</x>
+      <y>608</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>636</x>
+      <y>608</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>610</x>
+      <y>608</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>584</x>
+      <y>608</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>558</x>
+      <y>608</y>
+    </coordinates>
+  </groundblock>
+
+  <!--Top Blocks after gap-->
+  <groundblock>
+    <coordinates>
+      <x>688</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+  
+  <groundblock>
+    <coordinates>
+      <x>714</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+  
+  <groundblock>
+    <coordinates>
+      <x>740</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>766</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>792</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>818</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>844</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>870</x>
+      <y>530</y>
+    </coordinates>
+  </groundblock>
+  
+
+  <hiddenblock>
+    <coordinates>
+      <x>370</x>
+      <y>360</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>2</numOfItems>
+  </hiddenblock>
+
+  <pipe>
+    <coordinates>
+      <x>510</x>
+      <y>230</y>
+    </coordinates>
+  </pipe>
+
+  <questionblock>
+    <coordinates>
+      <x>300</x>
+      <y>230</y>
+    </coordinates>
+    <itemType>greenmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>100</x>
+      <y>400</y>
+    </coordinates>
+    <itemType>redmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>200</x>
+      <y>400</y>
+    </coordinates>
+    <itemType>star</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>300</x>
+      <y>400</y>
+    </coordinates>
+    <itemType>fireflower</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  
+
+  <usedblock>
+    <coordinates>
+      <x>230</x>
+      <y>230</y>
+    </coordinates>
+  </usedblock>
+
+  <!--All Enemies are added here-->
+
+  <goomba>
+    <coordinates>
+      <x>700</x>
+      <y>350</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <goomba>
+    <coordinates>
+      <x>750</x>
+      <y>350</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+  <turtle>
+    <coordinates>
+      <x>830</x>
+      <y>350</y>
+    </coordinates>
+  </turtle>
+
+</level>

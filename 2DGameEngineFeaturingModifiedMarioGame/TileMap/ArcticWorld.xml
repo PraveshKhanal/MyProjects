@@ -1,0 +1,1623 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<level>
+  <!--All entities have coordinates and velocity. If there is no velocity tag, velocity will default to zero. See mario for example-->
+  <!--Multiple of the same entity can be added-->
+
+  <!--100x100 is minimum to avoid breaking-->
+  <!--Requires at least 5555 width for full functionality-->
+  <!--Requires at least 4096 width for Cc to work-->
+  <levelwidth>5000</levelwidth>
+  <levelheight>1500</levelheight>
+  <background>snowback</background>
+  <water>false</water>
+
+  <!--Default position for Mario: X = 27, Y = 600-->
+  <player>
+    <state>standard</state>
+    <coordinates>
+      <x>30</x>
+      <y>600</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </player>
+
+
+  <void>
+    <y>950</y>
+  </void>
+
+  <!--Checkpoints-->
+  <checkpoint>
+    <coordinates>
+      <x>1600</x>
+      <y>658</y>
+    </coordinates>
+  </checkpoint>
+
+  <checkpoint>
+    <coordinates>
+      <x>3300</x>
+      <y>400</y>
+    </coordinates>
+  </checkpoint>
+
+  <checkpoint>
+    <coordinates>
+      <x>3300</x>
+      <y>150</y>
+    </coordinates>
+  </checkpoint>
+
+  <!--Part 1 Layer 1+ Ground blocks until 1st gap-->
+  <groundblock>
+    <coordinates>
+      <x>0</x>
+      <y>658</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>0</x>
+      <y>684</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  
+  <!--Part 1 Layer 1+ Ground blocks until 2nd gap-->
+  <groundblock>
+    <coordinates>
+      <x>650</x>
+      <y>736</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>650</x>
+      <y>762</y>
+    </coordinates>
+    <stack>
+      <x>60</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>650</x>
+      <y>788</y>
+    </coordinates>
+    <stack>
+      <x>60</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+
+  <!--Part 1 Layer 4+ Ground blocks until 1st gap-->
+  <groundblock>
+    <coordinates>
+      <x>0</x>
+      <y>944</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>0</x>
+      <y>970</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>0</x>
+      <y>996</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <!--1st small stairs-->
+
+  <diamondblock>
+    <coordinates>
+      <x>468</x>
+      <y>918</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>494</x>
+      <y>892</y>
+    </coordinates>
+    <stack>
+      <x>4</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>520</x>
+      <y>866</y>
+    </coordinates>
+    <stack>
+      <x>3</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>546</x>
+      <y>840</y>
+    </coordinates>
+    <stack>
+      <x>2</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>572</x>
+      <y>814</y>
+    </coordinates>
+  </diamondblock>
+
+ 
+  
+  <!--2nd giant stairs-->
+  
+  <iceblock>
+    <coordinates>
+      <x>1170</x>
+      <y>736</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </iceblock>
+  
+  <groundblock>
+    <coordinates>
+      <x>1690</x>
+      <y>736</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>1690</x>
+      <y>710</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>1742</x>
+      <y>684</y>
+    </coordinates>
+    <stack>
+      <x>18</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>1794</x>
+      <y>658</y>
+    </coordinates>
+    <stack>
+      <x>16</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>1846</x>
+      <y>632</y>
+    </coordinates>
+    <stack>
+      <x>14</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>1898</x>
+      <y>606</y>
+    </coordinates>
+    <stack>
+      <x>12</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>1950</x>
+      <y>580</y>
+    </coordinates>
+    <stack>
+      <x>10</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>2002</x>
+      <y>554</y>
+    </coordinates>
+    <stack>
+      <x>8</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+  
+  <diamondblock>
+    <coordinates>
+      <x>2054</x>
+      <y>528</y>
+    </coordinates>
+    <stack>
+      <x>6</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>2106</x>
+      <y>502</y>
+    </coordinates>
+    <stack>
+      <x>4</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>2158</x>
+      <y>476</y>
+    </coordinates>
+    <stack>
+      <x>2</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <!--Snowball Drop area-->
+
+  <snowball>
+    <coordinates>
+      <x>2000</x>
+      <y>400</y>
+    </coordinates>
+  </snowball>
+
+  <snowball>
+    <coordinates>
+      <x>1800</x>
+      <y>400</y>
+    </coordinates>
+  </snowball>
+
+  <!--Part 2 Layer 1+ Brick blocks after stairs-->
+  <brickblock>
+    <coordinates>
+      <x>2288</x>
+      <y>294</y>
+    </coordinates>
+    <stack>
+      <x>40</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+
+  <brickblock>
+    <coordinates>
+      <x>2548</x>
+      <y>268</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+
+  <brickblock>
+    <coordinates>
+      <x>2808</x>
+      <y>242</y>
+    </coordinates>
+    <stack>
+      <x>20</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+
+
+  <!--Question and other blocks above brick ceiling/stairs-->
+
+  <brickblock>
+    <coordinates>
+      <x>2522</x>
+      <y>138</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>5</numOfItems>
+  </brickblock>
+
+  <questionblock>
+    <coordinates>
+      <x>2548</x>
+      <y>138</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+  
+  
+  <questionblock>
+    <coordinates>
+      <x>2808</x>
+      <y>112</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>2938</x>
+      <y>112</y>
+    </coordinates>
+    <itemType>fireflower</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <brickblock>
+    <coordinates>
+      <x>2964</x>
+      <y>112</y>
+    </coordinates>
+    <stack>
+      <x>4</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+
+  <hiddenblock>
+    <coordinates>
+      <x>3068</x>
+      <y>112</y>
+    </coordinates>
+    <itemType>greenmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </hiddenblock>
+
+  <questionblock>
+    <coordinates>
+      <x>3172</x>
+      <y>112</y>
+    </coordinates>
+    <itemType>star</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <!--Question and other blocks Under the brick ceiling/stairs-->
+
+  <brickblock>
+    <coordinates>
+      <x>2522</x>
+      <y>372</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>5</numOfItems>
+  </brickblock>
+  
+  <questionblock>
+    <coordinates>
+      <x>2548</x>
+      <y>372</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>2808</x>
+      <y>372</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>2938</x>
+      <y>372</y>
+    </coordinates>
+    <itemType>greenmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+  
+  <hiddenblock>
+    <coordinates>
+      <x>2990</x>
+      <y>372</y>
+    </coordinates>
+    <itemType>star</itemType>
+    <numOfItems>1</numOfItems>
+  </hiddenblock>
+
+  <brickblock>
+    <coordinates>
+      <x>3042</x>
+      <y>372</y>
+    </coordinates>
+    <stack>
+      <x>4</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+  
+  <questionblock>
+    <coordinates>
+      <x>3198</x>
+      <y>372</y>
+    </coordinates>
+    <itemType>redmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+
+  <!--Question and other blocks In boss area-->
+
+  <questionblock>
+    <coordinates>
+      <x>3718</x>
+      <y>502</y>
+    </coordinates>
+    <itemType>redmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <pipetop>
+    <coordinates>
+      <x>3640</x>
+      <y>602</y>
+    </coordinates>
+  </pipetop>
+
+  <!--Flag pole's stair block (flag should be x-9 and y-162 blocks from diamond block)-->
+  <diamondblock>
+    <coordinates>
+      <x>4888</x>
+      <y>632</y>
+    </coordinates>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>4706</x>
+      <y>632</y>
+    </coordinates>
+  </diamondblock>
+
+  <flagpole>
+    <coordinates>
+      <x>4706</x>
+      <y>374</y>
+    </coordinates>
+  </flagpole>
+  
+  <diamondblock>
+    <coordinates>
+      <x>4732</x>
+      <y>632</y>
+    </coordinates>
+  </diamondblock>
+
+
+  <!--Castle-->
+  <castle>
+    <coordinates>
+      <x>4810</x>
+      <y>472</y>
+    </coordinates>
+  </castle>
+
+  <!--Part 2 Layer 1+ Ground blocks until 1st gap-->
+  <groundblock>
+    <coordinates>
+      <x>2288</x>
+      <y>528</y>
+    </coordinates>
+    <stack>
+      <x>40</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>2288</x>
+      <y>502</y>
+    </coordinates>
+    <stack>
+      <x>40</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>2288</x>
+      <y>476</y>
+    </coordinates>
+    <stack>
+      <x>40</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <!--Part 3 Layer 1+ Ground blocks until End-->
+  <groundblock>
+    <coordinates>
+      <x>3380</x>
+      <y>658</y>
+    </coordinates>
+    <stack>
+      <x>80</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>3380</x>
+      <y>684</y>
+    </coordinates>
+    <stack>
+      <x>80</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>3380</x>
+      <y>710</y>
+    </coordinates>
+    <stack>
+      <x>80</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+  
+  
+
+  <!--Other Blocks and Effects -->
+
+  <!--Question Blocks Part 1-->
+
+  <questionblock>
+    <coordinates>
+      <x>442</x>
+      <y>554</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>104</x>
+      <y>814</y>
+    </coordinates>
+    <itemType>redmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <brickblock>
+    <coordinates>
+      <x>208</x>
+      <y>814</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>5</numOfItems>
+  </brickblock>
+  
+  <questionblock>
+    <coordinates>
+      <x>234</x>
+      <y>814</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+  
+  <brickblock>
+    <coordinates>
+      <x>260</x>
+      <y>814</y>
+    </coordinates>
+    <stack>
+      <x>3</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+  
+  <!--Enemies in part 1-->
+  <goomba>
+    <coordinates>
+      <x>260</x>
+      <y>866</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <turtle>
+    <coordinates>
+      <x>380</x>
+      <y>866</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+
+  <turtle>
+    <coordinates>
+      <x>800</x>
+      <y>642</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+    <stopingSpot>
+      <x>600</x>
+      <y>642</y>
+    </stopingSpot>
+  </turtle>
+
+
+  <!--Enemies in part 2 Ice area-->
+
+  <goomba>
+    <coordinates>
+      <x>1400</x>
+      <y>650</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <goomba>
+    <coordinates>
+      <x>1500</x>
+      <y>650</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+
+  <!--Enemies in part 3 Ceiling Top-->
+  <goomba>
+    <coordinates>
+      <x>2700</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+  <goomba>
+    <coordinates>
+      <x>2600</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+  <turtle>
+    <coordinates>
+      <x>3000</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+  
+  <turtle>
+    <coordinates>
+      <x>3200</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+  <!--Enemies in part 3 Ceiling bottom-->
+
+  <goomba>
+    <coordinates>
+      <x>2700</x>
+      <y>400</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <goomba>
+    <coordinates>
+      <x>2600</x>
+      <y>400</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+  <turtle>
+    <coordinates>
+      <x>3000</x>
+      <y>400</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+
+  <turtle>
+    <coordinates>
+      <x>3200</x>
+      <y>400</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+  
+  
+  <!--Warp Pipe to underwater world here-->
+
+  <warppipe>
+    <coordinates>
+      <x>780</x>
+      <y>944</y>
+    </coordinates>
+    <destination>WaterWorld</destination>
+  </warppipe>
+
+  <!--Ground blocks after warp pipe to waterworld-->
+  <groundblock>
+    <coordinates>
+      <x>832</x>
+      <y>944</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>832</x>
+      <y>970</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundblock>
+    <coordinates>
+      <x>832</x>
+      <y>996</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+  
+  <!--Kelp after warp pipe-->
+  <kelp>
+    <coordinates>
+      <x>884</x>
+      <y>900</y>
+    </coordinates>
+  </kelp>
+  
+  <pipelower>
+    <coordinates>
+      <x>780</x>
+      <y>986</y>
+    </coordinates>
+    <stack>
+      <x>1</x>
+      <y>20</y>
+    </stack>
+  </pipelower>
+
+
+  <!--Weather Effects -->
+  <fog>
+    <coordinates>
+      <x>600</x>
+      <y>550</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+
+  <fog>
+    <coordinates>
+      <x>2500</x>
+      <y>350</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+
+  <fog>
+    <coordinates>
+      <x>2900</x>
+      <y>150</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+
+  <fog>
+    <coordinates>
+      <x>4100</x>
+      <y>550</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+
+  <fog>
+    <coordinates>
+      <x>4000</x>
+      <y>500</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+  
+  <fog>
+    <coordinates>
+      <x>4000</x>
+      <y>550</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+
+  <fog>
+    <coordinates>
+      <x>4000</x>
+      <y>300</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+  
+  <fog>
+    <coordinates>
+      <x>4000</x>
+      <y>400</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </fog>
+
+  <cloud>
+    <coordinates>
+      <x>300</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+
+  <cloud>
+    <coordinates>
+      <x>1000</x>
+      <y>100</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+
+  <cloud>
+    <coordinates>
+      <x>1500</x>
+      <y>150</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+
+  <cloud>
+    <coordinates>
+      <x>2000</x>
+      <y>100</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+  
+  <cloud>
+    <coordinates>
+      <x>3600</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+  
+  <cloud>
+    <coordinates>
+      <x>3900</x>
+      <y>300</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+
+  <cloud>
+    <coordinates>
+      <x>4000</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+
+  <cloud>
+    <coordinates>
+      <x>4500</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>-1</x>
+      <y>0</y>
+    </velocity>
+  </cloud>
+
+  <tree>
+    <coordinates>
+      <x>2700</x>
+      <y>280</y>
+    </coordinates>
+  </tree>
+
+  <tree>
+    <coordinates>
+      <x>2600</x>
+      <y>70</y>
+    </coordinates>
+  </tree>
+  
+  <tree>
+    <coordinates>
+      <x>3200</x>
+      <y>45</y>
+    </coordinates>
+  </tree>
+
+  <tree>
+    <coordinates>
+      <x>3400</x>
+      <y>465</y>
+    </coordinates>
+  </tree>
+  
+  <tree>
+    <coordinates>
+      <x>4000</x>
+      <y>465</y>
+    </coordinates>
+  </tree>
+
+  <tree>
+    <coordinates>
+      <x>4400</x>
+      <y>465</y>
+    </coordinates>
+  </tree>
+
+  <hiddenblock>
+    <coordinates>
+      <x>350</x>
+      <y>460</y>
+    </coordinates>
+    <itemType>star</itemType>
+    <numOfItems>1</numOfItems>
+  </hiddenblock>
+  
+  <tree>
+    <coordinates>
+      <x>300</x>
+      <y>460</y>
+    </coordinates>
+  </tree>
+
+  <tree>
+    <coordinates>
+      <x>1000</x>
+      <y>538</y>
+    </coordinates>
+  </tree>
+
+  <!--Question Blocks Part 2-->
+
+  <questionblock>
+    <coordinates>
+      <x>1234</x>
+      <y>486</y>
+    </coordinates>
+    <itemType>fireflower</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <pipetop>
+    <coordinates>
+      <x>1338</x>
+      <y>392</y>
+    </coordinates>
+  </pipetop>
+  
+  <brickblock>
+    <coordinates>
+      <x>1312</x>
+      <y>434</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+  
+  <questionblock>
+    <coordinates>
+      <x>1364</x>
+      <y>226</y>
+    </coordinates>
+    <itemType>greenmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+ 
+  
+  <!--Boss Area-->
+
+  <goomba>
+    <coordinates>
+      <x>4000</x>
+      <y>500</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <goomba>
+    <coordinates>
+      <x>3900</x>
+      <y>500</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <goomba>
+    <coordinates>
+      <x>3800</x>
+      <y>500</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+  
+  <atlas>
+    <coordinates>
+      <x>4100</x>
+      <y>200</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </atlas>
+
+
+  <turtle>
+    <coordinates>
+      <x>4600</x>
+      <y>550</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+  
+  <turtle>
+    <coordinates>
+      <x>4400</x>
+      <y>550</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+    <stopingSpot>
+      <x>4200</x>
+      <y>700</y>
+    </stopingSpot>
+  </turtle>
+  
+  <!--Testing Entities Room-->
+
+  <brickblock>
+    <coordinates>
+      <x>3260</x>
+      <y>1300</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+
+  <groundblock>
+    <coordinates>
+      <x>3000</x>
+      <y>1374</y>
+    </coordinates>
+    <stack>
+      <x>3</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundcolored>
+    <coordinates>
+      <x>3000</x>
+      <y>1400</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundcolored>
+
+  <groundblock>
+    <coordinates>
+      <x>3000</x>
+      <y>1426</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <groundcolored>
+    <coordinates>
+      <x>3000</x>
+      <y>1452</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundcolored>
+
+  <groundblock>
+    <coordinates>
+      <x>3000</x>
+      <y>1478</y>
+    </coordinates>
+    <stack>
+      <x>30</x>
+      <y>1</y>
+    </stack>
+  </groundblock>
+
+  <!--Coin-->
+  <coinstatic>
+    <coordinates>
+      <x>3390</x>
+      <y>1248</y>
+    </coordinates>
+  </coinstatic>
+
+  <!--QuestionBlocks-->
+  <questionblock>
+    <coordinates>
+      <x>3390</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>star</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>3468</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <questionblock>
+    <coordinates>
+      <x>3546</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>greenmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <brickblock>
+    <coordinates>
+      <x>3598</x>
+      <y>1300</y>
+    </coordinates>
+  </brickblock>
+
+  <questionblock>
+    <coordinates>
+      <x>3624</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>redmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+  <brickblock>
+    <coordinates>
+      <x>3676</x>
+      <y>1300</y>
+    </coordinates>
+  </brickblock>
+
+  <questionblock>
+    <coordinates>
+      <x>3702</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>fireflower</itemType>
+    <numOfItems>1</numOfItems>
+  </questionblock>
+
+
+
+  <!--Stairs-->
+  <diamondblock>
+    <coordinates>
+      <x>3312</x>
+      <y>1222</y>
+    </coordinates>
+    <stack>
+      <x>4</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>3338</x>
+      <y>1196</y>
+    </coordinates>
+    <stack>
+      <x>3</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>3364</x>
+      <y>1170</y>
+    </coordinates>
+    <stack>
+      <x>2</x>
+      <y>1</y>
+    </stack>
+  </diamondblock>
+
+  <diamondblock>
+    <coordinates>
+      <x>3390</x>
+      <y>1144</y>
+    </coordinates>
+  </diamondblock>
+
+  <!--Testing Ice Blocks-->
+  <iceblock>
+    <coordinates>
+      <x>3200</x>
+      <y>1170</y>
+    </coordinates>
+  </iceblock>
+
+  <iceblock>
+    <coordinates>
+      <x>3226</x>
+      <y>1170</y>
+    </coordinates>
+  </iceblock>
+
+  <iceblock>
+    <coordinates>
+      <x>3252</x>
+      <y>1170</y>
+    </coordinates>
+  </iceblock>
+
+  <brickblock>
+    <coordinates>
+      <x>3070</x>
+      <y>1170</y>
+    </coordinates>
+    <stack>
+      <x>5</x>
+      <y>1</y>
+    </stack>
+  </brickblock>
+
+  <!--Flag and block (flag should be x-9 and y-162 blocks from diamond block)-->
+  <diamondblock>
+    <coordinates>
+      <x>3494</x>
+      <y>1248</y>
+    </coordinates>
+  </diamondblock>
+
+  <flagpole>
+    <coordinates>
+      <x>3485</x>
+      <y>990</y>
+    </coordinates>
+  </flagpole>
+
+  <!--Enemies-->
+  <goomba>
+    <coordinates>
+      <x>3528</x>
+      <y>1326</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </goomba>
+
+  <turtle>
+    <coordinates>
+      <x>3330</x>
+      <y>1144</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+  </turtle>
+
+  <turtle>
+    <coordinates>
+      <x>3330</x>
+      <y>844</y>
+    </coordinates>
+    <velocity>
+      <x>0</x>
+      <y>0</y>
+    </velocity>
+    <stopingSpot>
+      <x>3530</x>
+      <y>944</y>
+    </stopingSpot>
+  </turtle>
+
+  <!--Brick and hidden Blocks-->
+
+  <hiddenblock>
+    <coordinates>
+      <x>3182</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>redmushroom</itemType>
+    <numOfItems>1</numOfItems>
+  </hiddenblock>
+
+  <brickblock>
+    <coordinates>
+      <x>3156</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>coin</itemType>
+    <numOfItems>10</numOfItems>
+  </brickblock>
+
+  <!--Vertical left wall -->
+
+  <brickblock>
+    <coordinates>
+      <x>2974</x>
+      <y>1140</y>
+    </coordinates>
+    <stack>
+      <x>1</x>
+      <y>15</y>
+    </stack>
+  </brickblock>
+
+  <!--Vertical Right wall -->
+
+  <brickblock>
+    <coordinates>
+      <x>3910</x>
+      <y>1140</y>
+    </coordinates>
+    <stack>
+      <x>1</x>
+      <y>15</y>
+    </stack>
+  </brickblock>
+
+  <!--Pipes -->
+
+  <warppipe>
+    <coordinates>
+      <x>3858</x>
+      <y>1300</y>
+    </coordinates>
+    <itemType>fireflower</itemType>
+    <numOfItems>1</numOfItems>
+  </warppipe>
+
+  <warppipe>
+    <coordinates>
+      <x>3100</x>
+      <y>1300</y>
+    </coordinates>
+    <enemyType>piranha</enemyType>
+    <numOfEnemies>1</numOfEnemies>
+  </warppipe>
+
+  <pipelower>
+    <coordinates>
+      <x>3858</x>
+      <y>1326</y>
+    </coordinates>
+    <stack>
+      <x>1</x>
+      <y>8</y>
+    </stack>
+  </pipelower>
+
+  <!--End of Testing Entities Room-->
+ 
+
+  <!--End of Testing Entities Room-->
+
+  <!--End of level-->
+
+</level>
